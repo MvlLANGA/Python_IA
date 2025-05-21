@@ -31,5 +31,10 @@ numeros.append(5)
 numeros.append(3)
 numeros.append(10)
 
-print(numeros)
 
+
+# adicionar itens em lugar especifico
+numeros.insert(1,50)
+numeros.insert(0,20)
+numeros.insert(3,200)
+print(numeros)
