@@ -47,3 +47,10 @@ print(numero_deletado)
 # remove o item pelo nome ou numero do proprio item
 numeros.remove(200)
 print(numeros)
+
+#Sort - Classificação
+lista_clas = [0,45,68,98,78,65,23,35,47]
+lista_clas.sort()
+lista_v2 = sorted(lista_clas) #Cria uma lista copia da lista pedida (lista_clas)
+print(lista_clas) 
+print(lista_v2)
