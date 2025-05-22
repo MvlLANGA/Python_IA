@@ -54,3 +54,19 @@ lista_clas.sort()
 lista_v2 = sorted(lista_clas) #Cria uma lista copia da lista pedida (lista_clas)
 print(lista_clas) 
 print(lista_v2)
+
+# Maximo. Minimo. Soma
+lista_numeros = [0,45,78,6,32,15]
+print(max(lista_numeros))
+print(min(lista_numeros))
+print(sum(lista_numeros))
+
+
+lista_mediana = [15,48,79,36,56,89,74,15,32]
+print()
+def mediana(minha_lista: list[int]): #Esse list obriga que o parametro seja do tipo lista
+    ordenada = sorted(minha_lista)
+    centro_lista = len(ordenada) // 2
+    return ordenada[centro_lista]
+
+print(f"A mediana é {mediana(lista_mediana)}")
