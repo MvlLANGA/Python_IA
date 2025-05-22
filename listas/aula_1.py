@@ -37,4 +37,13 @@ numeros.append(10)
 numeros.insert(1,50)
 numeros.insert(0,20)
 numeros.insert(3,200)
+
+
+# remover itens da lista pelo indice
+numeros.pop(2)
+numero_deletado = numeros.pop(0)
+print(numero_deletado)
+
+# remove o item pelo nome ou numero do proprio item
+numeros.remove(200)
 print(numeros)
