@@ -70,3 +70,11 @@ def mediana(minha_lista: list[int]): #Esse list obriga que o parametro seja do t
     return ordenada[centro_lista]
 
 print(f"A mediana é {mediana(lista_mediana)}")
+
+
+valores = [8,3,15,1,9]
+x =10
+if x in valores: # O In quer saber se o x ESTA na lista...
+    print("Sim existe")
+else:
+    print("Não existe")
