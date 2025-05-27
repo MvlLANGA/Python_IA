@@ -22,8 +22,8 @@
 
 # Criando uma lista a partir do range
 
-numero = list(range(3,15)) # Ajuda vc a criar uma lista usando o list(range) -- aqui ele pede uma lista de (3) a (15)
-print(numero) # caso vc queira um elemento da lista, voce coloca o [] e o numero do elemento EX: print(numero[5])
+#numero = list(range(3,15)) # Ajuda vc a criar uma lista usando o list(range) -- aqui ele pede uma lista de (3) a (15)
+#print(numero) # caso vc queira um elemento da lista, voce coloca o [] e o numero do elemento EX: print(numero[5])
 
-for i in numero:
-    print(i)
+#for i in numero:
+#    print(i)
