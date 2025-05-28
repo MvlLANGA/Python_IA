@@ -1,4 +1,6 @@
-# For
+# Estudo de FOR
+
+
 #lista = ["maria", "madalena", "pedro", "paulo", "alex"]
 #for item in lista: # O que esta dentro do For vai ser executado no print
 #    if len(item) > 2:
@@ -27,3 +29,15 @@
 
 #for i in numero:
 #    print(i)
+
+# count() conta quantas vezes uma string ou inteiro tem dentro de um conjunto
+#minha_string = "Quantas madeiras um esquilo pode empilhar se um um esquilo pudesse empilhar madeiras"
+#print(minha_string.count("a"))
+
+#minha_lista = [1,2,3,4,5,6,2,3,1]
+#print(minha_lista.count(6))
+
+#Replace ele ajuda a mudar um objeto dentro de uma variavel
+#minha_palavra = "oi oi oi amigos"
+#nova_palavra = minha_palavra.replace("oi", "ola")
+#print(nova_palavra)
