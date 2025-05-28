@@ -41,3 +41,14 @@
 #minha_palavra = "oi oi oi amigos"
 #nova_palavra = minha_palavra.replace("oi", "ola")
 #print(nova_palavra)
+
+#lista_bidimensional = [
+#    [0,1,2,3],
+#    [0,8,6,3],
+#    [2,3,5,7],
+#    [5,9,7,4]]
+
+#print(lista_bidimensional[0][0]) # Aqui vai imprimir o elemento 5 pois esta na linha x=2 e na y=2
+#print(lista_bidimensional[1][0])
+#print(lista_bidimensional[2][0])
+#print(lista_bidimensional[3][0])
