@@ -7,6 +7,6 @@ def histogram(texto):
             histograma[letra]= 1
 
     for letra in histograma:
-        print(letra + "*" * histograma[letra])        
+        print(letra + ":" + "*" * histograma[letra])        
     
-histogram("abba")
+histogram("inconstitucionalissimamente")
