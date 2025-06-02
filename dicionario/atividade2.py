@@ -1,8 +1,9 @@
 def add_filme(database:list, nome:str, diretor:str, ano:int, duracao: int):
 
 #criamos um dicionario chamado filmes, que pede nome:, diretor:, ano; e tempo de duração do film
+
    filme = {
-        "nome":nome,
+        "nome":nome, #Para cada chave colocamos um valor EX "nome" essa é a chave nome, esse é o valor.
         "diretor":diretor,
         "ano":ano,
         "tempo de execução":duracao
