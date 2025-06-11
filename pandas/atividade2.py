@@ -22,7 +22,7 @@ print(df_temp[['Series_Title', 'Gross']].head())
 
 
 #Converte a coluna 'Released_Year' para numerico, caso ainda não esteja
-df_filmes['Released_Yar'] = pd.to_numeric(df_filmes['Released_Year'], errors='coerce')
+df_filmes['Released_Yar'] = pd.to_numeric(df_filmes['Released_Year'], errors='coerce') #Esse esse errors para caso tenha numeros invalidos não de erro ou não tenha dados
 
 #filtra os filmes com ano >= 2016"
 filmes_pos_2016 = df_filmes[df_filmes['Released_Year'] >= "2016"][['Series_Title', 'Released_Year']]
