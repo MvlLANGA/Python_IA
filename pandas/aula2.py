@@ -25,6 +25,6 @@ print("Estatistica do DataFrame: ")
 print(df_filmes.describe())
 
 #Index
-#Traz informações sobre osindices das linhas
+#Traz informações sobre os indices das linhas
 print("Informações do Indice")
 print(df_filmes.index)
