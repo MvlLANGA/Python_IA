@@ -12,4 +12,4 @@ print(df_netflix.info())
 
 print(f"O total de filmes é: {df_netflix.shape[0]} \nE suas caracteristicas são: {df_netflix.shape[1]}")
 
-print(f"-- A nota média dos filmes é: {df_netflix.describe()}")
+print(f"-- A nota média dos filmes: {df_netflix.describe()}")

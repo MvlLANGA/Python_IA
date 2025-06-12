@@ -7,7 +7,7 @@ import pandas as pd
 #Data Frame ou df
 dados_alunos = {
     'nome':['Ana', 'João', 'Paula', 'Andre'],
-    'idade':[1,2,3,5],
+    'idade':[2,4,3,5],
     'curso':['Engenharia', 'Ciencias', 'Biologia', 'Direito']
 
 }
