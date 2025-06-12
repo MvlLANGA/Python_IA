@@ -28,3 +28,4 @@ df_filmes['Released_Yar'] = pd.to_numeric(df_filmes['Released_Year'], errors='co
 filmes_pos_2016 = df_filmes[df_filmes['Released_Year'] >= "2016"][['Series_Title', 'Released_Year']]
 print("\n4. Filmes lançados a partir de 2016: ")
 print(filmes_pos_2016)
+
